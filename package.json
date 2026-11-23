@@ -1,0 +1,13 @@
+{
+  "name": "database-distributed-index-consistency-validator",
+  "version": "1.0.0",
+  "description": "验证跨分片索引维护、唯一性和恢复状态（纯内存模型，不连接真实数据库）",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=24.16.0"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}
